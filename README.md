@@ -12,8 +12,8 @@ Since I was new to Python and coding in general at the time, I did not know of R
 Example usage is shown in `./example_usage.py`. Just clone the repository and try it for yourself if you want to. The query_selector_all is in the `./qualifier.py` file. Node class is in `./node.py` and test cases which were provided by Python Discord can be found in `./tests.py`.
 
 ### Setup and Usage
-To clone the repository: `git clone https://github.com/mhasanali2010/code-jam-12-qualifier`
-Example Usage:
+- To clone the repository: `git clone https://github.com/mhasanali2010/code-jam-12-qualifier`
+- Example Usage:
 ```python
 from qualifier import query_selector_all
 from node import Node
