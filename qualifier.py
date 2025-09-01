@@ -60,4 +60,7 @@ def query_selector_all(node: Node, selector: str) -> list[Node]:
 
     for child in node.children: #searching node's children
         final_list = final_list + query_selector_all(child, selector)
+
+
+    final_list = list(set(final_list))
     return final_list
