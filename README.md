@@ -22,7 +22,7 @@ node = Node() # details of the node go here
 selector = '#home-link' # css selector
 matched_nodes = query_selector_all(node, selector) # returns a list
 ```
-
+More detailed Node() object is given in `./example_usage.py` and `tests.py`. Complex selectors can be seen in `./tests.py`
 ## Notes
 - This has only been tested using `Python 3.13`.
 - No external library is required. Only Python stdlib functions are used.
